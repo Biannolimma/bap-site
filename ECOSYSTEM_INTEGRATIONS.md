@@ -2,6 +2,14 @@
 
 Este documento descreve as integrações planejadas para o ecossistema Block And Play.
 
+> 📖 **Veja também**: [Arquitetura Técnica](docs/arquitetura.md) para detalhes de implementação
+
+## 🏗️ Diagrama do Ecossistema
+
+<img src="public/diagrams/ecosystem-diagram.svg" alt="Diagrama do Ecossistema Block And Play" width="100%" />
+
+*Visualização completa do ecossistema e suas integrações*
+
 ## 🎯 Visão Geral
 
 O site institucional do Block And Play servirá como portal central para um ecossistema completo de dApps blockchain focados em gaming e DeFi. Esta infraestrutura permitirá:

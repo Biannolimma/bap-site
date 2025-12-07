@@ -188,6 +188,13 @@ Seu PR deve incluir:
 
 Obrigado por contribuir com o Block And Play! Cada contribuição, grande ou pequena, é valiosa para o crescimento do projeto.
 
+## 📚 Documentação Adicional
+
+Antes de contribuir, recomendamos a leitura da documentação técnica:
+
+- **[Arquitetura](docs/arquitetura.md)**: Entenda a arquitetura técnica do sistema
+- **[Integrações do Ecossistema](ECOSYSTEM_INTEGRATIONS.md)**: Conheça as integrações planejadas
+
 ## 📞 Precisa de Ajuda?
 
 - Discord: [Block And Play Community](#)

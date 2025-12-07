@@ -7,6 +7,12 @@
 
 Site institucional do ecossistema Block And Play - uma plataforma descentralizada para jogos blockchain, NFTs e dApps.
 
+## 📸 Mockup da Página Principal
+
+<img src="public/images/homepage-mockup.svg" alt="Mockup da Homepage do Block And Play" width="100%" />
+
+*Visualização do design da landing page principal*
+
 ## 🎮 Sobre o Projeto
 
 Block And Play é um ecossistema descentralizado que integra:
@@ -16,6 +22,12 @@ Block And Play é um ecossistema descentralizado que integra:
 - 💎 Marketplace de NFTs e tokens
 
 Este repositório contém o site vitrine/institucional do projeto, desenvolvido com Next.js, React e TypeScript.
+
+### Diagrama do Ecossistema
+
+<img src="public/diagrams/ecosystem-diagram.svg" alt="Diagrama do Ecossistema Block And Play" width="100%" />
+
+*Visão geral da arquitetura e integrações do ecossistema Block And Play*
 
 ## 🚀 Começando
 
@@ -200,6 +212,14 @@ O site institucional servirá como:
 - **Chainlink**: Oracles descentralizados
 
 ## 📚 Documentação Adicional
+
+### Documentação do Projeto
+
+- **[Arquitetura](docs/arquitetura.md)**: Documentação técnica completa da arquitetura do sistema
+- **[Contribuições](CONTRIBUTING.md)**: Guia de contribuição para o projeto
+- **[Integrações do Ecossistema](ECOSYSTEM_INTEGRATIONS.md)**: Roadmap de integrações planejadas
+
+### Documentação Externa
 
 - [Documentação do Next.js](https://nextjs.org/docs)
 - [Documentação do React](https://react.dev)
