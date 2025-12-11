@@ -1,0 +1,41 @@
+{
+  "title": "Block And Play",
+  "subtitle": "Ecossistema de Jogos Descentralizado",
+  "description": "Bem-vindo ao Block And Play! Um ecossistema descentralizado inovador que conecta jogos blockchain, dApps e uma comunidade vibrante de jogadores.",
+  "actions": {
+    "getStarted": "Começar",
+    "login": "Entrar"
+  },
+  "features": {
+    "gaming": {
+      "title": "🎮 Gaming",
+      "description": "Jogos blockchain integrados com NFTs e tokens"
+    },
+    "dapps": {
+      "title": "🔗 dApps",
+      "description": "Ecossistema de aplicações descentralizadas"
+    },
+    "community": {
+      "title": "👥 Community",
+      "description": "Comunidade ativa de desenvolvedores e jogadores"
+    }
+  },
+  "sections": {
+    "about": {
+      "title": "Sobre",
+      "description": "Conheça mais sobre o projeto Block And Play"
+    },
+    "documentation": {
+      "title": "Documentação",
+      "description": "Guias, tutoriais e referência da API"
+    },
+    "ecosystem": {
+      "title": "Ecossistema",
+      "description": "Explore os dApps do ecossistema BAP"
+    },
+    "connect": {
+      "title": "Conectar",
+      "description": "Conecte sua carteira e entre no ecossistema"
+    }
+  }
+}

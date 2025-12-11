@@ -1,0 +1,11 @@
+{
+  "navigation": {
+    "home": "Home",
+    "docs": "Docs",
+    "login": "Login",
+    "backToHome": "Back to Home"
+  },
+  "languageSwitcher": {
+    "label": "Language"
+  }
+}

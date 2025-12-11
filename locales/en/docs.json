@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "title": "Documentation - Block And Play",
+    "description": "Complete documentation of the Block And Play ecosystem"
+  },
+  "title": "Documentation",
+  "subtitle": "Complete guide for developers and users of the Block And Play ecosystem",
+  "sections": {
+    "gettingStarted": {
+      "title": "🚀 Getting Started",
+      "intro": "Block And Play is a decentralized ecosystem that integrates blockchain games, NFTs, tokens, and various dApps. This guide will help you get started.",
+      "prerequisites": {
+        "title": "Prerequisites",
+        "items": [
+          "Web3 Wallet (MetaMask, WalletConnect, etc.)",
+          "Basic blockchain knowledge",
+          "Tokens to interact with dApps"
+        ]
+      }
+    },
+    "gaming": {
+      "title": "🎮 Games and NFTs",
+      "intro": "BAP ecosystem games use NFTs as in-game assets, enabling true digital ownership of your items.",
+      "dapps": {
+        "title": "Gaming dApps",
+        "description": "Complete integration with blockchain games"
+      },
+      "marketplace": {
+        "title": "NFT Marketplace",
+        "description": "Buy, sell and trade ecosystem NFTs"
+      }
+    },
+    "integrations": {
+      "title": "🔗 Ecosystem Integrations",
+      "intro": "The Block And Play ecosystem is prepared to integrate various dApps:",
+      "dex": {
+        "title": "DEX (Decentralized Exchange)",
+        "description": "Decentralized exchange for trading BAP tokens and other assets"
+      },
+      "staking": {
+        "title": "Staking Platform",
+        "description": "Staking platform for holders to earn rewards"
+      },
+      "dao": {
+        "title": "DAO Governance",
+        "description": "Decentralized governance system for community decisions"
+      },
+      "launchpad": {
+        "title": "Launchpad",
+        "description": "Platform for launching new projects in the ecosystem"
+      }
+    },
+    "api": {
+      "title": "⚙️ API and SDK",
+      "intro": "Develop applications integrated with the BAP ecosystem using our API and SDKs.",
+      "codeExample": "// Integration example\nimport { BAPClient } from '@bap/sdk'\n\nconst client = new BAPClient({\n  network: 'mainnet',\n  apiKey: 'your-api-key'\n})\n\n// Connect wallet\nawait client.connect()\n\n// Interact with contracts\nconst balance = await client.getBalance()"
+    },
+    "developers": {
+      "title": "🛠️ For Developers",
+      "intro": "Want to contribute to the ecosystem? Check out our contribution guide on GitHub!",
+      "buttons": {
+        "github": "GitHub",
+        "apiReference": "API Reference"
+      }
+    },
+    "support": {
+      "title": "💬 Support",
+      "intro": "Need help? Contact us through our support channels:",
+      "channels": [
+        "Discord: Block And Play Community",
+        "Twitter/X: @BlockAndPlay",
+        "Telegram: @BAPCommunity",
+        "Email: support@blockandplay.io"
+      ]
+    }
+  }
+}

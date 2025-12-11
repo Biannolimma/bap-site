@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "title": "Documentação - Block And Play",
+    "description": "Documentação completa do ecossistema Block And Play"
+  },
+  "title": "Documentação",
+  "subtitle": "Guia completo para desenvolvedores e usuários do ecossistema Block And Play",
+  "sections": {
+    "gettingStarted": {
+      "title": "🚀 Começando",
+      "intro": "Block And Play é um ecossistema descentralizado que integra jogos blockchain, NFTs, tokens e diversos dApps. Este guia ajudará você a começar.",
+      "prerequisites": {
+        "title": "Pré-requisitos",
+        "items": [
+          "Carteira Web3 (MetaMask, WalletConnect, etc.)",
+          "Conhecimento básico de blockchain",
+          "Tokens para interagir com os dApps"
+        ]
+      }
+    },
+    "gaming": {
+      "title": "🎮 Jogos e NFTs",
+      "intro": "Os jogos do ecossistema BAP utilizam NFTs como ativos in-game, permitindo verdadeira propriedade digital dos seus itens.",
+      "dapps": {
+        "title": "Gaming dApps",
+        "description": "Integração completa com jogos blockchain"
+      },
+      "marketplace": {
+        "title": "NFT Marketplace",
+        "description": "Compre, venda e troque NFTs do ecossistema"
+      }
+    },
+    "integrations": {
+      "title": "🔗 Integrações do Ecossistema",
+      "intro": "O ecossistema Block And Play está preparado para integrar diversos dApps:",
+      "dex": {
+        "title": "DEX (Decentralized Exchange)",
+        "description": "Exchange descentralizada para trading de tokens BAP e outros ativos"
+      },
+      "staking": {
+        "title": "Staking Platform",
+        "description": "Plataforma de staking para holders ganharem recompensas"
+      },
+      "dao": {
+        "title": "DAO Governance",
+        "description": "Sistema de governança descentralizado para decisões da comunidade"
+      },
+      "launchpad": {
+        "title": "Launchpad",
+        "description": "Plataforma para lançamento de novos projetos no ecossistema"
+      }
+    },
+    "api": {
+      "title": "⚙️ API e SDK",
+      "intro": "Desenvolva aplicações integradas ao ecossistema BAP usando nossa API e SDKs.",
+      "codeExample": "// Exemplo de integração\nimport { BAPClient } from '@bap/sdk'\n\nconst client = new BAPClient({\n  network: 'mainnet',\n  apiKey: 'your-api-key'\n})\n\n// Conectar carteira\nawait client.connect()\n\n// Interagir com contratos\nconst balance = await client.getBalance()"
+    },
+    "developers": {
+      "title": "🛠️ Para Desenvolvedores",
+      "intro": "Quer contribuir com o ecossistema? Confira nosso guia de contribuição no GitHub!",
+      "buttons": {
+        "github": "GitHub",
+        "apiReference": "API Reference"
+      }
+    },
+    "support": {
+      "title": "💬 Suporte",
+      "intro": "Precisa de ajuda? Entre em contato através dos nossos canais de suporte:",
+      "channels": [
+        "Discord: Comunidade Block And Play",
+        "Twitter/X: @BlockAndPlay",
+        "Telegram: @BAPCommunity",
+        "Email: support@blockandplay.io"
+      ]
+    }
+  }
+}

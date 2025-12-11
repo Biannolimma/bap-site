@@ -1,0 +1,157 @@
+{
+  "common": {
+    "navigation": {
+      "home": "Home",
+      "docs": "Docs",
+      "login": "Login",
+      "backToHome": "Back to Home"
+    },
+    "languageSwitcher": {
+      "label": "Language"
+    }
+  },
+  "home": {
+    "title": "Block And Play",
+    "subtitle": "Decentralized Gaming Ecosystem",
+    "description": "Welcome to Block And Play! An innovative decentralized ecosystem that connects blockchain games, dApps, and a vibrant community of players.",
+    "actions": {
+      "getStarted": "Get Started",
+      "login": "Login"
+    },
+    "features": {
+      "gaming": {
+        "title": "🎮 Gaming",
+        "description": "Blockchain games integrated with NFTs and tokens"
+      },
+      "dapps": {
+        "title": "🔗 dApps",
+        "description": "Ecosystem of decentralized applications"
+      },
+      "community": {
+        "title": "👥 Community",
+        "description": "Active community of developers and players"
+      }
+    },
+    "sections": {
+      "about": {
+        "title": "About",
+        "description": "Learn more about the Block And Play project"
+      },
+      "documentation": {
+        "title": "Documentation",
+        "description": "Guides, tutorials and API reference"
+      },
+      "ecosystem": {
+        "title": "Ecosystem",
+        "description": "Explore the BAP ecosystem dApps"
+      },
+      "connect": {
+        "title": "Connect",
+        "description": "Connect your wallet and enter the ecosystem"
+      }
+    }
+  },
+  "docs": {
+    "metadata": {
+      "title": "Documentation - Block And Play",
+      "description": "Complete documentation of the Block And Play ecosystem"
+    },
+    "title": "Documentation",
+    "subtitle": "Complete guide for developers and users of the Block And Play ecosystem",
+    "sections": {
+      "gettingStarted": {
+        "title": "🚀 Getting Started",
+        "intro": "Block And Play is a decentralized ecosystem that integrates blockchain games, NFTs, tokens, and various dApps. This guide will help you get started.",
+        "prerequisites": {
+          "title": "Prerequisites",
+          "items": [
+            "Web3 Wallet (MetaMask, WalletConnect, etc.)",
+            "Basic blockchain knowledge",
+            "Tokens to interact with dApps"
+          ]
+        }
+      },
+      "gaming": {
+        "title": "🎮 Games and NFTs",
+        "intro": "BAP ecosystem games use NFTs as in-game assets, enabling true digital ownership of your items.",
+        "dapps": {
+          "title": "Gaming dApps",
+          "description": "Complete integration with blockchain games"
+        },
+        "marketplace": {
+          "title": "NFT Marketplace",
+          "description": "Buy, sell and trade ecosystem NFTs"
+        }
+      },
+      "integrations": {
+        "title": "🔗 Ecosystem Integrations",
+        "intro": "The Block And Play ecosystem is prepared to integrate various dApps:",
+        "dex": {
+          "title": "DEX (Decentralized Exchange)",
+          "description": "Decentralized exchange for trading BAP tokens and other assets"
+        },
+        "staking": {
+          "title": "Staking Platform",
+          "description": "Staking platform for holders to earn rewards"
+        },
+        "dao": {
+          "title": "DAO Governance",
+          "description": "Decentralized governance system for community decisions"
+        },
+        "launchpad": {
+          "title": "Launchpad",
+          "description": "Platform for launching new projects in the ecosystem"
+        }
+      },
+      "api": {
+        "title": "⚙️ API and SDK",
+        "intro": "Develop applications integrated with the BAP ecosystem using our API and SDKs.",
+        "codeExample": "// Integration example\nimport { BAPClient } from '@bap/sdk'\n\nconst client = new BAPClient({\n  network: 'mainnet',\n  apiKey: 'your-api-key'\n})\n\n// Connect wallet\nawait client.connect()\n\n// Interact with contracts\nconst balance = await client.getBalance()"
+      },
+      "developers": {
+        "title": "🛠️ For Developers",
+        "intro": "Want to contribute to the ecosystem? Check out our contribution guide on GitHub!",
+        "buttons": {
+          "github": "GitHub",
+          "apiReference": "API Reference"
+        }
+      },
+      "support": {
+        "title": "💬 Support",
+        "intro": "Need help? Contact us through our support channels:",
+        "channels": [
+          "Discord: Block And Play Community",
+          "Twitter/X: @BlockAndPlay",
+          "Telegram: @BAPCommunity",
+          "Email: support@blockandplay.io"
+        ]
+      }
+    }
+  },
+  "login": {
+    "title": "Connect",
+    "subtitle": "Connect your Web3 wallet to access the Block And Play ecosystem",
+    "chooseWallet": "Choose your wallet",
+    "wallets": {
+      "metamask": "MetaMask",
+      "walletconnect": "WalletConnect",
+      "coinbase": "Coinbase Wallet"
+    },
+    "noWallet": "Don't have a wallet?",
+    "createWallet": "Create a wallet",
+    "connected": {
+      "title": "Connected!",
+      "description": "Your wallet has been successfully connected",
+      "exploreButton": "Explore dApps",
+      "disconnectButton": "Disconnect"
+    },
+    "terms": {
+      "intro": "By connecting, you agree to our",
+      "termsOfService": "Terms of Service",
+      "and": "and",
+      "privacyPolicy": "Privacy Policy"
+    },
+    "security": "Secure and decentralized connection",
+    "alert": "Wallet connection will be implemented with Web3 provider (MetaMask, WalletConnect, etc.)"
+  }
+}
