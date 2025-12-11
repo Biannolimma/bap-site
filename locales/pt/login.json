@@ -1,0 +1,26 @@
+{
+  "title": "Conectar",
+  "subtitle": "Conecte sua carteira Web3 para acessar o ecossistema Block And Play",
+  "chooseWallet": "Escolha sua carteira",
+  "wallets": {
+    "metamask": "MetaMask",
+    "walletconnect": "WalletConnect",
+    "coinbase": "Coinbase Wallet"
+  },
+  "noWallet": "Não tem uma carteira?",
+  "createWallet": "Criar uma carteira",
+  "connected": {
+    "title": "Conectado!",
+    "description": "Sua carteira foi conectada com sucesso",
+    "exploreButton": "Explorar dApps",
+    "disconnectButton": "Desconectar"
+  },
+  "terms": {
+    "intro": "Ao conectar, você concorda com nossos",
+    "termsOfService": "Termos de Serviço",
+    "and": "e",
+    "privacyPolicy": "Política de Privacidade"
+  },
+  "security": "Conexão segura e descentralizada",
+  "alert": "A conexão da carteira será implementada com provedor Web3 (MetaMask, WalletConnect, etc.)"
+}
