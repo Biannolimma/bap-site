@@ -39,8 +39,8 @@ export default function DocsPage({ params: { locale } }: { params: { locale: str
               <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg mb-4">
                 <h3 className="text-xl font-semibold mb-2">{t('sections.gettingStarted.prerequisites.title')}</h3>
                 <ul className="list-disc list-inside space-y-2">
-                  {t.raw('sections.gettingStarted.prerequisites.items').map((item: string, idx: number) => (
-                    <li key={idx}>{item}</li>
+                  {t.raw('sections.gettingStarted.prerequisites.items').map((item: string) => (
+                    <li key={item}>{item}</li>
                   ))}
                 </ul>
               </div>
@@ -151,8 +151,8 @@ export default function DocsPage({ params: { locale } }: { params: { locale: str
                 {t('sections.support.intro')}
               </p>
               <ul className="list-disc list-inside space-y-2">
-                {t.raw('sections.support.channels').map((channel: string, idx: number) => (
-                  <li key={idx}>{channel}</li>
+                {t.raw('sections.support.channels').map((channel: string) => (
+                  <li key={channel}>{channel}</li>
                 ))}
               </ul>
             </div>
