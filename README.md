@@ -99,9 +99,78 @@ npm run dev          # Inicia servidor de desenvolvimento
 npm run build        # Cria build de produção
 npm run start        # Inicia servidor de produção
 
+# Export e Deploy
+npm run export       # Gera versão estática do site (pasta out/)
+npm run deploy       # Executa build e export do site
+
 # Qualidade de código
 npm run lint         # Executa ESLint
 ```
+
+## 🚀 Deploy para GitHub Pages
+
+Este projeto está configurado para deploy automático no GitHub Pages. Existem duas formas de fazer deploy:
+
+### Deploy Automático (Recomendado)
+
+O deploy automático acontece via GitHub Actions sempre que houver um push na branch `main`:
+
+1. **Ative o GitHub Pages no seu repositório:**
+   - Vá em `Settings` → `Pages`
+   - Em "Source", selecione `GitHub Actions`
+   - O workflow já está configurado em `.github/workflows/deploy.yml`
+
+2. **Faça push para a branch main:**
+   ```bash
+   git add .
+   git commit -m "feat: seu commit"
+   git push origin main
+   ```
+
+3. **Acompanhe o deploy:**
+   - Vá na aba `Actions` do seu repositório
+   - Veja o progresso do workflow "Deploy to GitHub Pages"
+   - Após concluído, seu site estará disponível em: `https://[seu-usuario].github.io/bap-site/`
+
+### Deploy Manual Local
+
+Para gerar e testar a versão estática localmente:
+
+1. **Gere a versão estática:**
+   ```bash
+   npm run export
+   ```
+   Isso criará uma pasta `out/` com os arquivos estáticos do site.
+
+2. **Teste localmente (opcional):**
+   ```bash
+   npx serve out
+   ```
+   Acesse `http://localhost:3000` para visualizar a versão estática.
+
+3. **O conteúdo da pasta `out/` é o que será publicado no GitHub Pages.**
+
+### Configuração do GitHub Pages
+
+O projeto usa as seguintes configurações para compatibilidade com GitHub Pages:
+
+- **Output estático:** `output: 'export'` no `next.config.js`
+- **Imagens desotimizadas:** Necessário para sites estáticos
+- **Trailing slash:** Garante URLs compatíveis com GitHub Pages
+- **Workflow automatizado:** Deploy via GitHub Actions
+
+### Troubleshooting
+
+**Problema:** Site não carrega corretamente no GitHub Pages
+- **Solução:** Verifique se o GitHub Pages está configurado para usar "GitHub Actions" como source
+
+**Problema:** Imagens não aparecem
+- **Solução:** As imagens devem estar na pasta `public/` e referenciadas com caminhos relativos
+
+**Problema:** Erros no build
+- **Solução:** Execute `npm run export` localmente para identificar problemas antes do deploy
+
+
 
 ## 🤝 Como Contribuir
 
